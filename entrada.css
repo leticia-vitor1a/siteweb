@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato-Black.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('fonts/Montserrat-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url('assets/login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    background-position: center;
+}
+
+.principal {
+    width: 450px;
+    height: 450px;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    margin-left: 60%;
+    margin-top: 4%;
+    background-color: white;
+}
+
+.principal-p { 
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+    color: #000000;
+    font-family: "Lato";
+
+}
+
+input[type="email"], input[type="password"] {
+    width: 90%;
+    padding: 0.8rem;
+    border: 1px solid #000000;
+    margin-top: 10px;
+    position: relative;
+    top: 35px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+input::placeholder {
+    font-size: 1rem;
+    color: #000000;
+}
+
+.entrada {
+    width: 90%;
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: 1px solid #6e1400;
+    margin-top: 20px;
+    position: relative;
+    top: 40px;
+    background-color: #6e1400;
+    color: rgb(244, 243, 243);
+    font-family: 'Lato';
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+nav {
+    position: relative;
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.nav-esqueceu {
+    color: rgb(0, 0, 0);
+}
+
+.outra {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+    position: relative;
+    top: 35px;
+    text-align: center;
+}
+
+.outra::before, .outra::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 0 5px;
+    height: 1px;
+}
+
+.outra {
+    padding:  20px;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    
+}
+.criar-conta {
+    width: 90%;
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: 1px solid #6e1400;
+    position: relative;
+    top: 15px;
+    background-color: #6e1400;
+    color: rgb(244, 243, 243);
+    font-family: 'Lato';
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.criarconta {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'lato';
+}
