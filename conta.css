@@ -15,12 +15,12 @@
 }
 
 body {
-    background-image: url('assets/login.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-    background-position: center;
-}
+        background-image: url('assets/login.png');
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-attachment: fixed;    
+    }
 
 .cadastro {
     width: 450px;
@@ -77,6 +77,11 @@ input::placeholder {
     cursor: pointer;
 }
 
+.cadastrar:hover {
+    background-color: #b61b1b;
+    color: rgb(244, 243, 243);
+}
+
 .voltar {
     width: 15%;
     padding: 0.9rem;
@@ -89,4 +94,9 @@ input::placeholder {
     color: rgb(244, 243, 243);
     cursor: pointer;
     size: 2;
+}
+
+.voltar:hover {
+    background-color: #b61b1b;
+    color: rgb(244, 243, 243);
 }
