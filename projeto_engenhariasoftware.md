@@ -13,7 +13,7 @@
 | Requisito Não-Funcional | Descrição | Estratégia para Atendimento |
 |-------------------------|-----------|-----------------------------|
 | **Desempenho** | O sistema deve carregar rapidamente e processar pedidos sem lentidão. | Uso de cache para dados do cardápio, otimização de imagens, e banco de dados indexado. |
-| **Usabilidade** | Interface intuitiva e responsiva para fácil navegação. | Design baseado em UX/UI, teste com usuários e adaptação para mobile-first. |
+| **Usabilidade** | Interface intuitiva e responsiva para fácil navegação. | Design baseado em UX/UI, teste com usuários. |
 | **Segurança** | Garantia da proteção dos dados do cliente, especialmente no login e pagamentos. | Criptografia de senhas, autenticação segura e protocolo HTTPS. |
 | **Escalabilidade** | O site deve suportar aumento no volume de acessos e pedidos. | Arquitetura baseada em microsserviços e possibilidade de escalonamento automático no servidor. |
 | **Disponibilidade** | O sistema deve estar disponível 24/7 para os clientes. | Uso de servidores redundantes e monitoramento de uptime. |
