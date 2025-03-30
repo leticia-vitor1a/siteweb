@@ -53,7 +53,8 @@ O site deve exibir um resumo do pedido, incluindo nome, quantidade, preço dos i
 ### 8) Como um cliente, quero ver as promoções em destaque na página inicial, para conhecer as melhores ofertas.
 **Critérios de aceitação** 
 
-O site deve exibir um carrossel de imagens na página inicial, destacando promoções e novidades. As imagens devem ser rotativas automaticamente e permitir navegação manual.
+O site deve exibir um carrossel de imagens na página inicial, destacando promoções e novidades. 
+
 ### 9) Como um cliente, quero filtrar os produtos do cardápio por categoria, para encontrar rapidamente o que desejo.
 **Critérios de aceitação** 
 
