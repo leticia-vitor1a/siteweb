@@ -25,7 +25,7 @@
 ### 1) Como um cliente, quero acessar o site e navegar facilmente pelas seções, para encontrar rapidamente as informações que desejo.
 **Critérios de aceitação**
 
-O site deve ter um índice fixo no topo com links para as principais seções, sendo responsivo e funcional em diferentes dispositivos. O carregamento do índice e das seções deve ser inferior a 3 segundos. 
+O site deve ter um índice fixo no topo com links para as principais seções. O carregamento do índice e das seções deve ser inferior a 3 segundos. 
 ### 2) Como um cliente, quero visualizar o cardápio de forma organizada por categorias, para encontrar facilmente os produtos disponíveis.
 **Critérios de aceitação**
 
