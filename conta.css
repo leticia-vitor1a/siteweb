@@ -43,18 +43,18 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
 /* Botões ajustados */
 button.entrada, button.Criar-Conta, button.cadastrar {
   width: 100%;
-  padding: 0.8rem;  /* Menor espaço interno */
+  padding: 0.8rem;  
   margin: 0.5rem 0;
   border: none;
-  border-radius: 10px; /* Mais arredondamento nos botões */
+  border-radius: 10px; 
   cursor: pointer;
-  background-color: #6e1400; /* Cor ajustada para #6e1400 */
+  background-color: #6e1400; 
   color: white;
-  font-size: 1rem; /* Ajuste no tamanho da fonte */
+  font-size: 1rem; 
 }
 
 button.entrada:hover, button.Criar-Conta:hover, button.cadastrar:hover {
-  background-color: #4f0c00; /* Cor de hover mais escura */
+  background-color: #4f0c00; 
 }
 
 a {
@@ -63,7 +63,7 @@ a {
 }
 
 .nav-esqueceu {
-  color: #000000; /* Cor ajustada */
+  color: #000000; 
   font-size: 1rem;
   margin-top: 1rem;
 }
@@ -85,20 +85,20 @@ a {
 .outra::after {
   content: "";
   flex: 1;
-  border-bottom: 1.5px solid #000000; /* amarelo da paleta */
+  border-bottom: 1.5px solid #000000; 
   margin: 0 10px;
 }
 
 
 .voltar {
   background-color: transparent;
-  color: #6e1400; /* Cor ajustada para #6e1400 */
+  color: #6e1400; 
   font-size: 1.2rem;
   padding: 0.8rem;
-  border: 1px solid #6e1400; /* Cor ajustada para #6e1400 */
-  border-radius: 10px; /* Mesmo border-radius do botão */
+  border: 1px solid #6e1400; 
+  border-radius: 10px; 
   cursor: pointer;
-  width: 100%; /* Tornando o botão "Voltar" com o mesmo tamanho */
+  width: 100%; 
 }
 
 .voltar:hover {
@@ -106,7 +106,7 @@ a {
 }
 
 .cadastrar {
-  background-color: #6e1400; /* Cor ajustada para #6e1400 */
+  background-color: #6e1400; 
   color: white;
   font-size: 1.2rem;
   padding: 1rem;
