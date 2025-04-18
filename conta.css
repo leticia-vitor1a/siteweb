@@ -1,102 +1,181 @@
-@charset "UTF-8";
 
-@font-face {
-    font-family: 'Lato';
-    src: url('fonts/Lato-Black.ttf') format('truetype'); 
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Montserrat";
-    src: url('fonts/Montserrat-Black.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-        background-image: url('assets/login.png');
-        background-size: cover; 
-        background-position: center; 
-        background-repeat: no-repeat; 
-        background-attachment: fixed;    
-    }
-
-.cadastro {
-    width: 450px;
-    height: 450px;
-    border-radius: 0.5rem;
-    text-align: center;
-    margin: 0 auto;
-    position: relative;
-    top: 80px;
-    box-shadow: 0px 0px 5px rgb(0, 0, 0);
-    margin-left: 60%;
-    margin-top: 4%;
-    background-color: white;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f7e083, #fffbee); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.p-cadastro { 
-    font-size: 2rem;
-    font-family:Arial, Helvetica, sans-serif;
-    position: relative;
-    top: 40px;
-    color: #000000;
-    font-family: "Lato";
 
+.principal, .Cadastro {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px; 
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
 }
 
-input[type="email"], input[type="password"], input[type="tel"], input[type="text"] {
-    width: 90%;
-    padding: 0.8rem;
-    border: 1px solid #000000;
-    margin-top: 10px;
-    position: relative;
-    top: 25px;
-    border-radius: 5px;
-    background-color: white;
+.p-cadastro, .principal-p {
+  font-size: 2rem;
+  color: #6e1400; /* Cor ajustada para #6e1400 */
+  margin-bottom: 1rem;
+  font-weight: bold;
 }
 
-input::placeholder {
-    font-size: 1rem;
-    color: #000000;
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
 }
 
-.cadastrar {
-    width: 70%;
-    padding: 0.8rem;
-    border-radius: 8px;
-    border: 1px solid #6e1400;
-    position: relative;
-    top: 18px;
-    margin-left: 20%;
-    background-color: #6e1400;
-    color: rgb(244, 243, 243);
-    font-family: 'Lato';
-    font-size: 1rem;
-    cursor: pointer;
+/* Botões ajustados */
+button.entrada, button.Criar-Conta, button.cadastrar {
+  width: 100%;
+  padding: 0.8rem;  /* Menor espaço interno */
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 10px; /* Mais arredondamento nos botões */
+  cursor: pointer;
+  background-color: #6e1400; /* Cor ajustada para #6e1400 */
+  color: white;
+  font-size: 1rem; /* Ajuste no tamanho da fonte */
 }
 
-.cadastrar:hover {
-    background-color: #b61b1b;
-    color: rgb(244, 243, 243);
+button.entrada:hover, button.Criar-Conta:hover, button.cadastrar:hover {
+  background-color: #4f0c00; /* Cor de hover mais escura */
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-esqueceu {
+  color: #000000; /* Cor ajustada */
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.nav-esqueceu:hover {
+  text-decoration: underline;
+} /* Efeito de hover para o link "Esqueci minha senha" */
+
+.outra {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  margin: 0.5rem 0;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.outra::before,
+.outra::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1.5px solid #000000; /* amarelo da paleta */
+  margin: 0 10px;
+}
+
 
 .voltar {
-    width: 15%;
-    padding: 0.9rem;
-    border-radius: 8px;
-    border: 1px solid #6e1400;
-    position: relative;
-    top: 4rem;
-    margin-right: 75%;
-    background-color: #6e1400;
-    color: rgb(244, 243, 243);
-    cursor: pointer;
-    size: 2;
+  background-color: transparent;
+  color: #6e1400; /* Cor ajustada para #6e1400 */
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  border: 1px solid #6e1400; /* Cor ajustada para #6e1400 */
+  border-radius: 10px; /* Mesmo border-radius do botão */
+  cursor: pointer;
+  width: 100%; /* Tornando o botão "Voltar" com o mesmo tamanho */
 }
 
 .voltar:hover {
-    background-color: #b61b1b;
-    color: rgb(244, 243, 243);
+  background-color: #f8c7a4;
 }
+
+.cadastrar {
+  background-color: #6e1400; /* Cor ajustada para #6e1400 */
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 10px; /* Mesmo border-radius do botão */
+}
+
+.cadastrar:hover {
+  background-color: #4f0c00;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .principal, .Cadastro {
+      padding: 1.5rem;
+  }
+
+  .p-cadastro, .principal-p {
+      font-size: 1.5rem;
+  }
+
+  input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+      font-size: 1rem;
+      padding: 0.6rem;
+  }
+
+  button {
+      font-size: 1rem;
+      padding: 0.8rem;
+  }
+
+  .voltar {
+      font-size: 1rem;
+      padding: 0.8rem;
+  }
+
+  .cadastrar {
+      font-size: 1rem;
+      padding: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .principal, .Cadastro {
+      padding: 1rem;
+      max-width: 90%;
+  }
+
+  .p-cadastro, .principal-p {
+      font-size: 1.2rem;
+  }
+
+  input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+      font-size: 0.9rem;
+      padding: 0.5rem;
+  }
+
+  button {
+      font-size: 1rem;
+      padding: 0.7rem;
+  }
+
+  .voltar {
+      font-size: 1rem;
+      padding: 0.7rem;
+  }
+
+  .cadastrar {
+      font-size: 1rem;
+      padding: 0.7rem;
+  }
+}
+
