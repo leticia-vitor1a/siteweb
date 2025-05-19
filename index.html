@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Brasa Burguer</title>
+</head>
+<body>
+<div class="tab">
+    <div class="container-tab">
+        <div class="abas-centro">
+            <button onclick="openTab(event, 'inicio')"><i class="fas fa-house"></i> Início</button>
+            <button onclick="openTab(event, 'cardapio')"><i class="fas fa-utensils"></i> Cardápio</button>
+            <button onclick="openTab(event, 'quemsomos')"><i class="fas fa-users"></i> Quem Somos</button>
+            <button onclick="openTab(event, 'contato')"><i class="fas fa-envelope"></i> Contato</button>
+        </div>
+        <div class="informacoes">
+            <button onclick="openTab(event, 'usuario')"><i class="fas fa-user"></i></button>
+            <button onclick="openTab(event, 'carrinho')"><i class="fas fa-shopping-cart"></i></button>
+            <button onclick="openTab(event, 'entsaida')"><i class="fas fa-sign-in-alt"></i></button>
+        </div>
+    </div>
+</div>
+
+   <div id="inicio" class="conteudo" style="display: block;">
+    <h2 class="nomes">Bem-vindo(a) ao Brasa Burguer</h2>
+    <div class="carrossel">
+        <div class="slides">
+            <div class="slide active">
+                <img src="assets/brasa cheddar.jpg" alt="Hambúrguer Especial">
+                <div class="slide-texto">
+                    <h3>Brasa Cheddar</h3>
+                    <p>Brasa Cheddar com desconto somente hoje!</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="assets/caipirinha.jpg" alt="Combos Promocionais">
+                <div class="slide-texto">
+                    <h3>Caipirinha de 51</h3>
+                    <p>Aproveite nossa caipirinha de 51 ice</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="assets/petit gateau.jpg" alt="Sobremesas">
+                <div class="slide-texto">
+                    <h3>Sobremesas Incríveis</h3>
+                    <p>Finalize sua refeição com nossos delicioso Petit Gateau</p>
+                </div>
+            </div>
+        </div>
+        <button class="carrossel-controle anterior" onclick="moverSlide(-1)">&#10094;</button>
+        <button class="carrossel-controle proximo" onclick="moverSlide(1)">&#10095;</button>
+        <div class="carrossel-indicadores"></div>
+    </div>
+    <div class="destaques">
+        <div class="destaque">
+            <i class="fas fa-award"></i>
+            <h3>Ingredientes Frescos</h3>
+            <p>Todos os dias selecionamos os melhores ingredientes</p>
+        </div>
+        <div class="destaque">
+            <i class="fas fa-clock"></i>
+            <h3>Entrega Rápida</h3>
+            <p>Entregamos em até 30 minutos ou o próximo é por nossa conta</p>
+        </div>
+        <div class="destaque">
+            <i class="fas fa-heart"></i>
+            <h3>Feito com Amor</h3>
+            <p>Cada hambúrguer é preparado artesanalmente</p>
+        </div>
+    </div>
+</div>
+    <div id="cardapio" class="conteudo">
+        <h2>Cardapio</h2>
+        <p>.</p>
+    </div>
+    <div id="quemsomos" class="conteudo">
+        <h2>Quem Somos</h2>
+        <div class="bloco-img-texto">
+            <img src="assets/burguer/brasa.jpg" alt="imagem do brasa" class="img-esquerda">
+            <div class="historia">
+                <p>
+                    Fundado em 2015, o Brasa Burguer nasceu da paixão por hambúrgueres artesanais e o autêntico churrasco brasileiro. Mais do que uma hamburgueria, somos um espaço onde tradição e inovação se encontram no fogo da brasa. Nossa missão é oferecer uma experiência gastronômica única, combinando técnicas tradicionais de churrasco com criatividade, atendimento acolhedor e ingredientes de alta qualidade. Cada detalhe é pensado com carinho: os hambúrgueres são preparados na hora, com carne 100% bovina, temperos caseiros e cortes selecionados. Os pães são assados diariamente para garantir maciez e frescor, e nossos molhos exclusivos são preparados de forma artesanal, dando aquele toque especial que só a Brasa tem. Temos orgulho em valorizar o sabor de verdade e apoiar produtores locais.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="contato" class="conteudo">
+        <h2>Contato</h2>
+        <section class="contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informações</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua dos Sabores, 123 - Centro</p>
+                    <p><i class="fas fa-phone"></i> (14) 1234-5678</p>
+                    <p><i class="fas fa-envelope"></i> contato@brasaburguer.com.br</p>
+                    <p><i class="fas fa-clock"></i> Todos os dias das 19h às 00h</p>
+                    <div class="redes-sociais">
+                        <h3>Redes Sociais</h3>
+                        <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                        <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                        <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Envie uma Mensagem</h3>
+                    <form>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Telefone:</label>
+                        <input type="tel" id="phone" name="phone">
+
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+   <div id="usuario" class="conteudo">
+    <main class="auth-container">
+        <form class="auth-form" id="form-login" onsubmit="handleLogin(event)">
+            <div class="form-header">
+                <h1>Login</h1>
+            </div>
+                 
+            <div class="form-group">
+                <label for="login">E-mail ou Telefone</label>
+                <input type="text" id="login" name="login" placeholder="Digite seu e-mail ou telefone" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <div class="password-input">
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                    <button type="button" class="toggle-password" aria-label="Mostrar senha">
+                        <i class="far fa-eye"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <button type="submit" class="btn-primary">Entrar</button>
+            
+            <div class="form-options">
+                <a href="senha.html" class="forgot-password">Esqueceu sua senha?</a>
+                <div class="divider">
+                    <span>ou</span>
+                </div>
+                <a href="cadastro.html" class="btn-secondary">Criar uma conta</a>
+            </div>
+        </form>
+    </main>
+</div>
+    <div id="carrinho" class="conteudo">carrinho</div>
+    <div id="entsaida" class="conteudo">login</div>
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <h3>Brasa Burguer</h3>
+                <p>Rua dos Sabores, 123 - Centro</p>
+                <p>Telefone: (14) 1234-5678</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Brasa Burguer - Todos os direitos reservados</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
