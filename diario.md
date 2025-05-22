@@ -207,14 +207,14 @@
 
 ### Atividades Realizadas
 
-- Organização dos documentos do projeto seguindo os templates do professor
-- Divisão dos templates entre os membros para preenchimento
-- Identificação de documentos ausentes como casos de teste
+- Organização dos documentos do projeto seguindo os templates do professor  
+- Divisão dos templates entre os membros para preenchimento  
+- Identificação de documentos ausentes como casos de teste  
 
 ### Dificuldades e Soluções
 
-- **Desafio:** Não encontrar ou não saber exatamente quais documentos eram os casos de teste  
-- **Solução:** Solicitar auxílio do professor para esclarecimentos
+- Desafio: Não saber quais documentos eram os casos de teste  
+- Solução: Solicitar auxílio do professor para esclarecimentos  
 
 ---
 
@@ -226,18 +226,16 @@
 
 ### Atividades Realizadas
 
-- Criação dos wireframes de baixa fidelidade:
-  - Tela inicial e cardápio: Lucas Bilizaro  
-  - Quem Somos e Contato: Letícia Vitória  
-- Desenvolvimento de protótipos de média fidelidade:
-  - Realização por Letícia e Lucas Bilizaro
-  - Inclusão de funcionalidades adicionais como carrinho e histórico
-  - Pesquisa por referências visuais para auxiliar na criação
+- Criação dos wireframes de baixa fidelidade:  
+- Tela inicial e cardápio: Lucas Bilizaro
+- Quem Somos e Contato: Letícia Vitória  
+- Desenvolvimento dos protótipos de média fidelidade com funcionalidades adicionais (carrinho, histórico)  
+- Pesquisa por referências visuais para auxiliar na criação  
 
 ### Dificuldades e Soluções
 
-- **Desafio:** Falta de noção inicial de como montar os protótipos  
-- **Solução:** Utilização de imagens de exemplo e inspiração visual
+- Desafio: Falta de noção de como montar os protótipos  
+- Solução: Usar imagens de exemplo para inspiração visual  
 
 ---
 
@@ -249,10 +247,10 @@
 
 ### Atividades Realizadas
 
-- Aplicação dos princípios de design centrado no usuário com base nas perguntas do professor
-- Criação de personas
-- Desenvolvimento de uma segunda versão da interface com melhorias
-- Documentação dos problemas e melhorias identificadas
+- Aplicação dos princípios de design centrado no usuário  
+- Criação de personas  
+- Desenvolvimento da segunda versão da interface com melhorias  
+- Documentação dos problemas e melhorias  
 
 ---
 
@@ -264,20 +262,74 @@
 
 ### Atividades Realizadas
 
-- Implementação de melhorias de acessibilidade nos protótipos no Figma:
-  - Indicação de foco visual em inputs e botões para navegação via teclado
-  - Contraste entre textos e fundos
-  - Legibilidade e clareza de informações
+- Implementação de melhorias de acessibilidade no Figma:  
+  - Indicação de foco visual em inputs e botões para navegação via teclado  
+  - Melhoria do contraste entre texto e fundo  
+  - Melhor legibilidade e clareza das informações  
 
 ---
 
-### Planejamento para os Próximos Dias
+### Informações Básicas
 
-- Finalização do projeto no Figma
-- Adição do back-end ao projeto
-- Melhorias visuais conforme a análise de acessibilidade
-- Agrupamento da documentação no GitHub
-- Finalização dos documentos exigidos pelo professor
+**Data:** 20/05/2025  
+**Membros presentes:** Letícia, Lucas Bilizaro  
+**Tema da semana:** Prototipagem e Design de Interface: Condução de Testes de Usabilidade Simplificados
+
+### Atividades Realizadas
+
+- Condução de testes de usabilidade simplificados  
+- Melhorias no protótipo conforme erros encontrados  
+
+### Dificuldades e Soluções
+
+- Desafio: Falta de pessoas para realizar a atividade  
+- Solução: Realizado com 2 pessoas, uma acumulando 2 papéis  
+
+### O que foi aprendido
+
+- Aplicar testes mesmo com equipe reduzida  
+- Valor do feedback para melhorias no design  
+
+---
+
+### Informações Básicas
+
+**Data:** 20/05/2025  
+**Membros presentes:** Letícia  
+**Tema da semana:** Prototipagem e Design de Interface: Refinamento dos Protótipos
+
+### Atividades Realizadas
+
+- Refinamento dos protótipos baseados nos testes  
+
+### O que foi aprendido
+
+- Importância da iteração contínua no design  
+
+---
+
+### Informações Básicas
+
+**Data:** 22/05/2025  
+**Membros presentes:** Letícia  
+**Tema da semana:** Prototipagem e Design de Interface: Elaboração de Guia de Estilo Básico
+
+### Atividades Realizadas
+
+- Criação do guia de estilo no Figma  
+- Alterações no layout visual do projeto  
+
+### Dificuldades e Soluções
+
+- Desafio: Encontrar os nomes das cores usadas  
+- Solução: Uso de ferramentas para reconhecimento de cores  
+
+### O que foi aprendido
+
+- Como padronizar visualmente o projeto  
+- Valor do guia de estilo para consistência visual  
+
+
 
 
 ## Seções Gerais
