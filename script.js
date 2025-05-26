@@ -142,3 +142,93 @@ document.querySelector('.carrossel').addEventListener('mouseenter', () => {
 document.querySelector('.carrossel').addEventListener('mouseleave', () => {
     intervaloCarrossel = setInterval(() => moverSlide(1), 5000);
 });
+
+// Cardápio - Filtros
+document.querySelectorAll('.filtros-cardapio button').forEach(btn => {
+    if (!btn.classList.contains('btn-historico')) {
+        btn.addEventListener('click', function() {
+            // Remove classe ativa de todos os botões
+            document.querySelectorAll('.filtros-cardapio button').forEach(b => {
+                b.classList.remove('filtro-ativo');
+            });
+            
+            // Adiciona classe ativa ao botão clicado
+            this.classList.add('filtro-ativo');
+            
+            // Esconde todas as categorias
+            document.querySelectorAll('.categoria-cardapio').forEach(cat => {
+                cat.style.display = 'none';
+            });
+            
+            // Mostra a categoria selecionada
+            const categoria = this.getAttribute('data-categoria');
+            document.getElementById(categoria).style.display = 'block';
+        });
+    }
+});
+
+// Histórico de Pedidos
+const historicoPedidos = JSON.parse(localStorage.getItem('historicoPedidos')) || [];
+
+// Modal de Histórico
+const modalHistorico = document.getElementById('modal-historico');
+const btnHistorico = document.getElementById('btn-historico');
+const btnFecharModal = document.querySelector('.fechar-modal');
+const btnRepetirPedido = document.getElementById('btn-repetir-pedido');
+
+btnHistorico.addEventListener('click', () => {
+    const historicoItens = document.querySelector('.historico-itens');
+    historicoItens.innerHTML = '';
+    
+    if (historicoPedidos.length === 0) {
+        historicoItens.innerHTML = '<p>Nenhum pedido no histórico</p>';
+        btnRepetirPedido.style.display = 'none';
+    } else {
+        historicoPedidos.forEach(pedido => {
+            const div = document.createElement('div');
+            div.className = 'historico-item';
+            div.innerHTML = `
+                <span>${pedido.item}</span>
+                <span>${pedido.data}</span>
+            `;
+            historicoItens.appendChild(div);
+        });
+        btnRepetirPedido.style.display = 'block';
+    }
+    
+    modalHistorico.style.display = 'block';
+});
+
+btnFecharModal.addEventListener('click', () => {
+    modalHistorico.style.display = 'none';
+});
+
+btnRepetirPedido.addEventListener('click', () => {
+    // Lógica para repetir o último pedido
+    if (historicoPedidos.length > 0) {
+        alert(`Pedido "${historicoPedidos[0].item}" será repetido!`);
+    }
+    modalHistorico.style.display = 'none';
+});
+
+// Adicionar item ao carrinho/histórico
+document.querySelectorAll('.btn-adicionar').forEach(btn => {
+    btn.addEventListener('click', function() {
+        const item = this.getAttribute('data-item');
+        const novoPedido = {
+            item: item,
+            data: new Date().toLocaleString()
+        };
+        
+        // Adiciona no início do array
+        historicoPedidos.unshift(novoPedido);
+        
+        // Mantém apenas os últimos 10 pedidos
+        if (historicoPedidos.length > 10) {
+            historicoPedidos.pop();
+        }
+        
+        localStorage.setItem('historicoPedidos', JSON.stringify(historicoPedidos));
+        alert(`${item} adicionado ao carrinho!`);
+    });
+});

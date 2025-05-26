@@ -72,10 +72,384 @@
         </div>
     </div>
 </div>
-    <div id="cardapio" class="conteudo">
-        <h2>Cardapio</h2>
-        <p>.</p>
+   <div id="cardapio" class="conteudo">
+        <h2>Cardápio</h2>
+        
+        <div class="filtros-cardapio">
+            <button class="filtro-ativo" data-categoria="sanduiches">Sanduíches</button>
+            <button data-categoria="bebidas">Bebidas</button>
+            <button data-categoria="acompanhamentos">Acompanhamentos</button>
+            <button data-categoria="sobremesas">Sobremesas</button>
+            <button id="btn-historico" class="btn-historico">
+                <i class="fas fa-history"></i> Histórico
+            </button>
+        </div>
+
+        <!-- Seção de Sanduíches -->
+        <div class="categoria-cardapio" id="sanduiches">
+            <h3>Sanduíches</h3>
+            <div class="itens-cardapio">
+                <!-- Item 1 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/lanches/Brasa Burguer.png" alt="Brasa Burguer">
+                    </div>
+                    <div class="item-info">
+                        <h4>Brasa Burguer</h4>
+                        <p class="item-descricao">Pão brioche, hambúrguer 180g, queijo cheddar, bacon, alface, tomate e molho especial</p>
+                        <p class="item-preco">R$ 28,90</p>
+                        <button class="btn-adicionar" data-item="Brasa Burguer">Adicionar</button>
+                    </div>
+                </div>
+                
+                <!-- Item 2 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/lanches/Brasa Cheddar.png" alt="Cheddar Burguer">
+                    </div>
+                    <div class="item-info">
+                        <h4>Brasa Cheddar</h4>
+                        <p class="item-descricao">Pão australiano, 2 hambúrgueres 120g, cheddar cremoso, cebola caramelizada</p>
+                        <p class="item-preco">R$ 32,50</p>
+                        <button class="btn-adicionar" data-item="Cheddar Burguer">Adicionar</button>
+                    </div>
+                </div>
+                
+                 <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/lanches/Brasa Bacon.png" alt="Bacon Burguer">
+                    </div>
+                    <div class="item-info">
+                        <h4>Brasa Bacon</h4>
+                        <p class="item-descricao">Pão australiano, 2 hambúrgueres 120g, cheddar cremoso, cebola caramelizada</p>
+                        <p class="item-preco">R$ 32,50</p>
+                        <button class="btn-adicionar" data-item="Brasa Bacon">Adicionar</button>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/lanches/Brasa Kids.png" alt="Kids Burguer">
+                    </div>
+                    <div class="item-info">
+                        <h4>Brasa Kids</h4>
+                        <p class="item-descricao">Pão australiano, 2 hambúrgueres 120g, cheddar cremoso, cebola caramelizada</p>
+                        <p class="item-preco">R$ 32,50</p>
+                        <button class="btn-adicionar" data-item="Brasa Kids">Adicionar</button>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/lanches/Brasa King.png" alt="King Burguer">
+                    </div>
+                    <div class="item-info">
+                        <h4>Brasa King</h4>
+                        <p class="item-descricao">Pão australiano, 2 hambúrgueres 120g, cheddar cremoso, cebola caramelizada</p>
+                        <p class="item-preco">R$ 32,50</p>
+                        <button class="btn-adicionar" data-item="Brasa King">Adicionar</button>
+                    </div>
+                </div>
+                    <!-- Item 5 -->
+                    <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/lanches/Taste.png" alt="Brasa Taste">
+                    </div>
+                    <div class="item-info">
+                        <h4>Brasa Taste</h4>
+                        <p class="item-descricao">Pão australiano, 2 hambúrgueres 120g, cheddar cremoso, cebola caramelizada</p>
+                        <p class="item-preco">R$ 32,50</p>
+                        <button class="btn-adicionar" data-item="Brasa Taste">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de Bebidas -->
+        <div class="categoria-cardapio" id="bebidas" style="display:none">
+            <h3>Bebidas</h3>
+            <div class="itens-cardapio">
+                <!-- Item 1 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/refrigerante.jpg" alt="Refrigerante">
+                    </div>
+                    <div class="item-info">
+                        <h4>Refrigerante 500ml</h4>
+                        <p class="item-descricao">Coca-Cola, Guaraná, Fanta ou Sprite</p>
+                        <p class="item-preco">R$ 8,00</p>
+                        <button class="btn-adicionar" data-item="Refrigerante 500ml">Adicionar</button>
+                    </div>
+                </div>
+                
+                <!-- Item 2 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/suco.jpg" alt="Suco Natural">
+                    </div>
+                    <div class="item-info">
+                        <h4>Suco Natural 500ml</h4>
+                        <p class="item-descricao">Laranja, Abacaxi com Hortelã ou Maracujá</p>
+                        <p class="item-preco">R$ 12,00</p>
+                        <button class="btn-adicionar" data-item="Suco Natural 500ml">Adicionar</button>
+                    </div>
+                </div>
+                
+                <!-- Item 3 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/suco.jpg" alt="Suco Natural">
+                    </div>
+                    <div class="item-info">
+                        <h4>Suco Natural 500ml</h4>
+                        <p class="item-descricao">Laranja, Abacaxi com Hortelã ou Maracujá</p>
+                        <p class="item-preco">R$ 12,00</p>
+                        <button class="btn-adicionar" data-item="Suco Natural 500ml">Adicionar</button>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/suco.jpg" alt="Suco Natural">
+                    </div>
+                    <div class="item-info">
+                        <h4>Suco Natural 500ml</h4>
+                        <p class="item-descricao">Laranja, Abacaxi com Hortelã ou Maracujá</p>
+                        <p class="item-preco">R$ 12,00</p>
+                        <button class="btn-adicionar" data-item="Suco Natural 500ml">Adicionar</button>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/suco.jpg" alt="Suco Natural">
+                    </div>
+                    <div class="item-info">
+                        <h4>Suco Natural 500ml</h4>
+                        <p class="item-descricao">Laranja, Abacaxi com Hortelã ou Maracujá</p>
+                        <p class="item-preco">R$ 12,00</p>
+                        <button class="btn-adicionar" data-item="Suco Natural 500ml">Adicionar</button>
+                    </div>
+                </div>
+                <!-- Item 6 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/suco.jpg" alt="Suco Natural">
+                    </div>
+                    <div class="item-info">
+                        <h4>Suco Natural 500ml</h4>
+                        <p class="item-descricao">Laranja, Abacaxi com Hortelã ou Maracujá</p>
+                        <p class="item-preco">R$ 12,00</p>
+                        <button class="btn-adicionar" data-item="Suco Natural 500ml">Adicionar</button>
+                    </div>
+                </div>
+                 <!-- Item 7 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/suco.jpg" alt="Suco Natural">
+                    </div>
+                    <div class="item-info">
+                        <h4>Suco Natural 500ml</h4>
+                        <p class="item-descricao">Laranja, Abacaxi com Hortelã ou Maracujá</p>
+                        <p class="item-preco">R$ 12,00</p>
+                        <button class="btn-adicionar" data-item="Suco Natural 500ml">Adicionar</button>
+                    </div>
+                </div>
+                 <!-- Item 8 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/suco.jpg" alt="Suco Natural">
+                    </div>
+                    <div class="item-info">
+                        <h4>Suco Natural 500ml</h4>
+                        <p class="item-descricao">Laranja, Abacaxi com Hortelã ou Maracujá</p>
+                        <p class="item-preco">R$ 12,00</p>
+                        <button class="btn-adicionar" data-item="Suco Natural 500ml">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de Acompanhamentos (NOVO) -->
+        <div class="categoria-cardapio" id="acompanhamentos" style="display:none">
+            <h3>Acompanhamentos</h3>
+            <div class="itens-cardapio">
+                <!-- Item 1 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/batata.jpg" alt="Batata Frita">
+                    </div>
+                    <div class="item-info">
+                        <h4>Batata Frita</h4>
+                        <p class="item-descricao">Porção de batata frita crocante com cheddar e bacon</p>
+                        <p class="item-preco">R$ 18,90</p>
+                        <button class="btn-adicionar" data-item="Batata Frita">Adicionar</button>
+                    </div>
+                </div>
+                
+                <!-- Item 2 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/onion.jpg" alt="Onion Rings">
+                    </div>
+                    <div class="item-info">
+                        <h4>Onion Rings</h4>
+                        <p class="item-descricao">Anéis de cebola empanados e crocantes</p>
+                        <p class="item-preco">R$ 16,50</p>
+                        <button class="btn-adicionar" data-item="Onion Rings">Adicionar</button>
+                    </div>
+                </div>
+                
+                <!-- Item 3 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/nuggets.jpg" alt="Nuggets">
+                    </div>
+                    <div class="item-info">
+                        <h4>Nuggets de Frango</h4>
+                        <p class="item-descricao">10 unidades de nuggets crocantes</p>
+                        <p class="item-preco">R$ 22,00</p>
+                        <button class="btn-adicionar" data-item="Nuggets de Frango">Adicionar</button>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/nuggets.jpg" alt="Nuggets">
+                    </div>
+                    <div class="item-info">
+                        <h4>Nuggets de Frango</h4>
+                        <p class="item-descricao">10 unidades de nuggets crocantes</p>
+                        <p class="item-preco">R$ 22,00</p>
+                        <button class="btn-adicionar" data-item="Nuggets de Frango">Adicionar</button>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/nuggets.jpg" alt="Nuggets">
+                    </div>
+                    <div class="item-info">
+                        <h4>Nuggets de Frango</h4>
+                        <p class="item-descricao">10 unidades de nuggets crocantes</p>
+                        <p class="item-preco">R$ 22,00</p>
+                        <button class="btn-adicionar" data-item="Nuggets de Frango">Adicionar</button>
+                    </div>
+                </div>
+                <!-- Item 6 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/nuggets.jpg" alt="Nuggets">
+                    </div>
+                    <div class="item-info">
+                        <h4>Nuggets de Frango</h4>
+                        <p class="item-descricao">10 unidades de nuggets crocantes</p>
+                        <p class="item-preco">R$ 22,00</p>
+                        <button class="btn-adicionar" data-item="Nuggets de Frango">Adicionar</button>
+                    </div>
+                </div>
+                <!-- Item 7 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/nuggets.jpg" alt="Nuggets">
+                    </div>
+                    <div class="item-info">
+                        <h4>Nuggets de Frango</h4>
+                        <p class="item-descricao">10 unidades de nuggets crocantes</p>
+                        <p class="item-preco">R$ 22,00</p>
+                        <button class="btn-adicionar" data-item="Nuggets de Frango">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de Sobremesas -->
+        <div class="categoria-cardapio" id="sobremesas" style="display:none">
+            <h3>Sobremesas</h3>
+            <div class="itens-cardapio">
+                <!-- Item 1 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/petit-gateau.jpg" alt="Petit Gateau">
+                    </div>
+                    <div class="item-info">
+                        <h4>Petit Gateau</h4>
+                        <p class="item-descricao">Bolo de chocolate com recheio derretido e sorvete de baunilha</p>
+                        <p class="item-preco">R$ 24,90</p>
+                        <button class="btn-adicionar" data-item="Petit Gateau">Adicionar</button>
+                    </div>
+                </div>
+                
+                <!-- Item 2 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/milkshake.jpg" alt="Milkshake">
+                    </div>
+                    <div class="item-info">
+                        <h4>Milkshake</h4>
+                        <p class="item-descricao">Chocolate, Morango ou Ovomaltine - 500ml</p>
+                        <p class="item-preco">R$ 18,00</p>
+                        <button class="btn-adicionar" data-item="Milkshake">Adicionar</button>
+                    </div>
+                </div>
+                
+                <!-- Item 3 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/sorvete.jpg" alt="Sorvete">
+                    </div>
+                    <div class="item-info">
+                        <h4>Sorvete Artesanal</h4>
+                        <p class="item-descricao">Casquinha com duas bolas - sabores: chocolate, creme ou morango</p>
+                        <p class="item-preco">R$ 12,50</p>
+                        <button class="btn-adicionar" data-item="Sorvete Artesanal">Adicionar</button>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/sorvete.jpg" alt="Sorvete">
+                    </div>
+                    <div class="item-info">
+                        <h4>Sorvete Artesanal</h4>
+                        <p class="item-descricao">Casquinha com duas bolas - sabores: chocolate, creme ou morango</p>
+                        <p class="item-preco">R$ 12,50</p>
+                        <button class="btn-adicionar" data-item="Sorvete Artesanal">Adicionar</button>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="item-cardapio">
+                    <div class="item-imagem">
+                        <img src="assets/burguer/sorvete.jpg" alt="Sorvete">
+                    </div>
+                    <div class="item-info">
+                        <h4>Sorvete Artesanal</h4>
+                        <p class="item-descricao">Casquinha com duas bolas - sabores: chocolate, creme ou morango</p>
+                        <p class="item-preco">R$ 12,50</p>
+                        <button class="btn-adicionar" data-item="Sorvete Artesanal">Adicionar</button>
+                    </div>
+                </div>
+
+               
+                
+            </div>
+        </div>
+
+        <!-- Modal de Histórico -->
+        <div id="modal-historico" class="modal">
+            <div class="modal-conteudo">
+                <span class="fechar-modal">&times;</span>
+                <h3>Seu Histórico de Pedidos</h3>
+                <div class="historico-itens">
+                    <!-- Itens serão adicionados dinamicamente via JavaScript -->
+                </div>
+                <button id="btn-repetir-pedido" class="btn-primary">Repetir Pedido</button>
+            </div>
+        </div>
     </div>
+ 
     <div id="quemsomos" class="conteudo">
         <h2>Quem Somos</h2>
         <div class="bloco-img-texto">
