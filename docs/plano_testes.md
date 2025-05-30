@@ -23,10 +23,10 @@ Serão testadas todas as funcionalidades disponíveis para o usuário final, inc
 - Baseado no documento de arquitetura do sistema
 
 ## Definições, Acrônimos e Abreviações  
-- **Selenium:** Ferramenta para automação de testes funcionais de interface web.  
-- **E2E (End-to-End):** Testes que verificam o fluxo completo da aplicação.  
-- **UI:** Interface do Usuário.  
-- **Jira:** Ferramenta para gerenciamento de bugs e tarefas.
+- **Selenium:** Ferramenta para automação de testes funcionais de interface web
+- **E2E (End-to-End):** Testes que verificam o fluxo completo da aplicação
+- **UI:** Interface do Usuário
+- **Jira:** Ferramenta para gerenciamento de bugs e tarefas
 
 ---
 
@@ -44,10 +44,10 @@ Serão testadas todas as funcionalidades disponíveis para o usuário final, inc
 - Gerenciamento de bugs: Jira
 
 ### Abordagem para cada Nível de Teste  
-- **Sistema:** Testes completos do fluxo de usuário via Selenium, cobrindo funcionalidades críticas e cenários alternativos.  
-- **Performance:** Simulações de carga para validar tempo de resposta e estabilidade.  
-- **Segurança:** Testes focados em autenticação, autorização e proteção de dados.  
-- **Usabilidade e Compatibilidade:** Testes manuais para avaliar navegação e visualização em dispositivos variados.
+- **Sistema:** Testes completos do fluxo de usuário via Selenium, cobrindo funcionalidades críticas e cenários alternativos
+- **Performance:** Simulações de carga para validar tempo de resposta e estabilidade  
+- **Segurança:** Testes focados em autenticação, autorização e proteção de dados  
+- **Usabilidade e Compatibilidade:** Testes manuais para avaliar navegação e visualização em dispositivos variados
 
 ### Critérios de Entrada e Saída  
 **Entrada:**  
@@ -103,15 +103,15 @@ Serão testadas todas as funcionalidades disponíveis para o usuário final, inc
 ## Critérios de Sucesso
 
 ### Métricas  
-- Tempo de resposta < 10 segundos para funcionalidades principais.  
-- Cobertura mínima de 90% das funcionalidades testadas com sucesso.  
-- 100% de sucesso nos testes de login e finalização de pedido.
+- Tempo de resposta < 10 segundos para funcionalidades principais
+- Cobertura mínima de 90% das funcionalidades testadas com sucesso 
+- 100% de sucesso nos testes de login e finalização de pedido
 
 ### Cobertura Mínima  
 - Testes automatizados cobrindo todos os fluxos críticos.  
-- Testes manuais para funcionalidades complexas e não funcionais.
+- Testes manuais para funcionalidades complexas e não funcionais
 
 ### Defeitos Aceitáveis  
 - Bugs leves tolerados se não impactarem o fluxo  
-- Defeitos críticos bloqueiam o lançamento e devem ser corrigidos.
+- Defeitos críticos bloqueiam o lançamento e devem ser corrigidos
 
