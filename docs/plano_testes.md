@@ -1,13 +1,10 @@
-# Plano de Testes do Projeto: Brasa Burguer - Sistema Web de Pedidos
+# Plano de Testes do Projeto: Brasa Burguer
 
-## 1. Introdução
-
-### 1.2. Objetivo Principal dos Testes
+## Objetivo Principal dos Testes  
 Garantir que o usuário consiga, desde o login inicial até a finalização da compra de um hambúrguer, realizar todas as etapas de forma eficaz e sem impedimentos.
 
-### 1.3. Escopo dos Testes
-Serão testadas todas as funcionalidades disponíveis para o usuário final, incluindo:
-
+## Escopo dos Testes  
+Serão testadas todas as funcionalidades disponíveis para o usuário final, incluindo:  
 - Cadastro de novo usuário  
 - Login de usuário existente  
 - Navegação pelo menu (hambúrgueres, acompanhamentos, bebidas)  
@@ -16,97 +13,105 @@ Serão testadas todas as funcionalidades disponíveis para o usuário final, inc
 - Edição e remoção de itens do carrinho  
 - Seleção de endereço de entrega  
 - Seleção do método de pagamento  
-- Finalização do pedido  
-- Visualização do histórico de pedidos  
+- Finalização do pedido   
 - Logout  
 
-**Fora do escopo:**
-- Funcionalidade de "repetir pedido"  
+**Fora do escopo:**  
+- Funcionalidade de "repetir pedido"
 
-### 1.4. Referências a Documentos Relacionados
-Baseado no documento de arquitetura do sistema.
+## Referências a Documentos Relacionados  
+- Baseado no documento de arquitetura do sistema
+
+## Definições, Acrônimos e Abreviações  
+- **Selenium:** Ferramenta para automação de testes funcionais de interface web.  
+- **E2E (End-to-End):** Testes que verificam o fluxo completo da aplicação.  
+- **UI:** Interface do Usuário.  
+- **Jira:** Ferramenta para gerenciamento de bugs e tarefas.
 
 ---
 
-## 2. Estratégia de Teste
+## Estratégia de Teste
 
-### 2.1. Tipos de Teste a serem Executados
-- Testes de Sistema (Funcionais/End-to-End) e Testes de Performance (Velocidade):
+### Tipos de Teste a serem Executados  
+- Testes de Sistema (funcionais e end-to-end)  
+- Testes de Performance (tempo de resposta, carga)  
+- Testes de Segurança (validação de proteção de dados e autenticação)  
+- Testes de Compatibilidade (em diferentes dispositivos e navegadores)  
+- Testes de Usabilidade (facilidade de uso, navegação intuitiva)
 
-### 2.2. Ferramentas a serem Utilizadas
-- Selenium WebDriver
+### Ferramentas a serem Utilizadas  
+- Testes Funcionais: Selenium  
+- Gerenciamento de bugs: Jira
 
-### 2.3. Abordagem para cada Nível de Teste
-- **Testes Funcionais (Automatizados):** Vitória executará os testes com Selenium, cobrindo o fluxo completo do usuário e interações com a interface.
-- **Testes de Validação Manual:** Lucas Bilizaro simulará o comportamento de um usuário final navegando manualmente pelo sistema.
+### Abordagem para cada Nível de Teste  
+- **Sistema:** Testes completos do fluxo de usuário via Selenium, cobrindo funcionalidades críticas e cenários alternativos.  
+- **Performance:** Simulações de carga para validar tempo de resposta e estabilidade.  
+- **Segurança:** Testes focados em autenticação, autorização e proteção de dados.  
+- **Usabilidade e Compatibilidade:** Testes manuais para avaliar navegação e visualização em dispositivos variados.
 
-### 2.4. Critérios de Entrada e Saída
+### Critérios de Entrada e Saída  
+**Entrada:**  
+- Código completo e integrado
 
-**Entrada:**
-- Código completo e integrado  
-- Ambiente de testes configurado (Live Server)
-
-**Saída:**
-- Todas as funcionalidades principais funcionando sem erros críticos  
+**Saída:**  
+- Todas as funções principais funcionando sem erros críticos  
 - Cumprimento dos critérios mínimos de performance  
-- Fluxos principais (login, pedido) com 100% de sucesso
+- Fluxos principais 100% funcionais
 
 ---
 
-## 3. Itens de Teste
+## Itens de Teste
 
-### 3.1. Funcionalidades a Serem Testadas
+### Funcionalidades a Serem Testadas  
+- Login  
+- Cadastro  
+- Pedidos  
+- Finalização  
+- Pós-pedido  
+- Suporte
 
-**Login**
-**Cadastro**
-**Pedidos**
-**Finalização**
-**Suporte** 
+### Características Não-Funcionais  
+- Segurança: Proteção de dados  
+- Usabilidade: Navegação intuitiva, clareza visual  
+- Compatibilidade: Responsividade em dispositivos móveis
 
-### 3.2. Características Não-Funcionais
+### Interfaces a Serem Testadas  
+- Apenas interfaces do próprio sistema web
 
-- **Segurança:** Criptografia de senha, proteção de dados  
-- **Usabilidade:** Navegação intuitiva, clareza da interface  
-- **Compatibilidade:** Responsividade em dispositivos móveis (Android, iOS)
-
-### 3.3. Interfaces a Serem Testadas
-- Interfaces internas do sistema web (SPA)
-
-### 3.4. Priorização dos Itens
-
-- **Alta Prioridade:** Login, Finalização de pedido  
-- **Média Prioridade:** Cadastro, Carrinho, Complementos, Endereço, Pagamento  
-- **Baixa Prioridade:** Histórico de pedidos, Suporte
+### Priorização dos Itens  
+- **Alta:** Login, Finalização de Pedido  
+- **Média:** Cadastro, Carrinho, Complementos, Endereço, Pagamento  
+- **Baixa:** Histórico, Suporte
 
 ---
 
-## 4. Recursos
+## Recursos
 
-### 4.1. Papéis e Responsabilidades
-- **Vitória:** Testes funcionais automatizados (Selenium)  
-- **Lucas Bilizaro:** Testes manuais simulando uso real
+### Papéis e Responsabilidades  
+- Leticia Vitória: Testes Funcionais com Selenium  
+- Lucas Bilizaro: Testes manuais com simulação de uso real
 
-### 4.2. Ambientes Necessários
-- Ambiente local com Live Server no VS Code  
+### Ambientes Necessários  
+- Ambiente local com Live Server no VS Code
 
-### 4.3. Ferramentas e Frameworks
-- **Automação:** Selenium  
-- **Gerenciamento de bugs:** Jira  
-
----
-
-## 5. Critérios de Sucesso
-
-### 5.1. Métricas
-- Tempo de resposta inferior a 10 segundos por funcionalidade  
-- Sucesso nas funcionalidades críticas  
-
-### 5.2. Cobertura Mínima
-- No mínimo 90% das funcionalidades executadas com sucesso  
-- 100% de sucesso nos fluxos críticos (login, finalização de pedido)
-
-### 5.3. Nível Aceitável de Defeitos
-- Nenhum bug crítico permitido  
-- Bugs leves tolerados se não afetarem o fluxo principal do usuário
+### Ferramentas e Frameworks  
+- Automação: Selenium  
+- Gerenciamento de bugs: Jira
 
 ---
+
+## Critérios de Sucesso
+
+### Métricas  
+- Tempo de resposta < 10 segundos para funcionalidades principais.  
+- Cobertura mínima de 90% das funcionalidades testadas com sucesso.  
+- 100% de sucesso nos testes de login e finalização de pedido.
+
+### Cobertura Mínima  
+- Testes automatizados cobrindo todos os fluxos críticos.  
+- Testes manuais para funcionalidades complexas e não funcionais.
+
+### Defeitos Aceitáveis  
+- Bugs leves tolerados se não impactarem o fluxo  
+- Defeitos críticos bloqueiam o lançamento e devem ser corrigidos.
+
