@@ -304,9 +304,7 @@
 
 ### O que foi aprendido
 
-- Importância da iteração contínua no design  
-
----
+- Importância da iteração contínua no design
 
 ### Informações Básicas
 
@@ -329,8 +327,145 @@
 - Como padronizar visualmente o projeto  
 - Valor do guia de estilo para consistência visual  
 
+---
 
+## Semana 9
 
+### Informações Básicas
+
+**Data:** 30/05/2025  
+**Membros presentes:** Letícia Vitória, Kauan Rodrigues, João Gabriel Pereira  
+**Tema da semana:** Ajustes nos documentos e alinhamento com o template solicitado
+
+### Atividades Realizadas
+
+**Descrição das atividades:**
+
+- Participação em reunião com o professor para revisão dos documentos  
+- Recebimento de orientações e alerta sobre a necessidade de seguir o template padrão solicitado  
+- Discussão sobre melhorias nos documentos com foco em clareza e padronização  
+
+**Artefatos revisados:**
+
+- Documento de Requisitos  
+- Documento de Histórias de Usuário  
+- Organização geral da documentação do projeto  
+
+**Distribuição de tarefas:**
+
+- Kauan Rodrigues: Anotação das orientações e repasse para o grupo  
+- Letícia Vitória: Verificação da estrutura técnica dos documentos  
+- João Gabriel: Apoio na análise dos pontos que precisavam ser corrigidos  
+
+### Dificuldades e Soluções
+
+**Desafios encontrados:**
+
+- Adaptação dos documentos ao novo formato exigido pelo professor  
+
+**Soluções adotadas:**
+
+- Divisão do trabalho entre os membros e revisão cruzada dos documentos  
+
+**Conhecimentos adquiridos:**
+
+- Importância da padronização de documentos técnicos  
+- Flexibilidade para refatorar entregas conforme o feedback recebido  
+
+### Reflexão sobre Aplicação dos Conceitos
+
+**Conceitos teóricos aplicados:**
+
+- Modelagem de requisitos  
+- Documentação de software conforme padrões acadêmicos  
+
+**Insights obtidos:**
+
+- Templates ajudam a organizar melhor a informação e facilitam a leitura  
+- Feedback do professor é essencial para garantir que o projeto siga os critérios corretos  
+
+**Conexões com conteúdos anteriores:**
+
+- Revisão dos formatos de documentação utilizados em Engenharia de Requisitos  
+
+### Próximos Passos
+
+**Planejamento para próxima aula:**
+
+- Executar os ajustes nos documentos e formatar de acordo com o template  
+- Finalizar a estruturação de arquivos para entrega  
+
+**Tarefas pendentes:**
+
+- Reformatação completa dos documentos – Responsáveis: Todos os membros  
+
+**Objetivos para próxima semana:**
+
+- Garantir que toda a documentação esteja nos padrões exigidos pela disciplina  
+- Avançar para a fase de desenvolvimento técnico com base nos documentos revisados  
+
+---
+
+## Semana 10
+
+### Informações Básicas
+
+**Data:** 05/06/2025  
+**Membros presentes:** Letícia Vitória, Lucas Bilizaro, Lucas Kopeska, Kauan Rodrigues  
+**Tema da semana:** Formatação final da documentação
+
+### Atividades Realizadas
+
+**Descrição das atividades:**
+
+- Reformatação dos documentos no padrão de template sugerido pelo professor  
+- Estruturação dos arquivos em páginas separadas conforme a documentação exigida  
+- Ajustes finais nos textos, linguagem e organização dos requisitos e histórias  
+
+**Artefatos produzidos:**
+
+- Documentos de Requisitos padronizados  
+- Documentação de Casos de Uso
+- Documentenção de Matriz de Reastribilidade
+- Organização das páginas e arquivos prontos para integração ao repositório  
+
+**Distribuição de tarefas:**
+
+- Letícia: Documento de Casos de Uso e Diario de Bordo
+- Lucas Bilizaro: Documento de Matriz de Reastribilidade
+- Lucas Kopeska: Documento de Histórias de Usuario
+- Kauan Rodrigues: Documento de Arquitetura 
+
+### Dificuldades e Soluções
+
+**Desafios encontrados:**
+
+- Ajustes manuais demorados devido à quantidade de conteúdo já pronto  
+
+**Soluções adotadas:**
+
+- Divisão clara de responsabilidades e trabalho em equipe para agilizar a reformatação  
+
+**Conhecimentos adquiridos:**
+
+- Importância de manter a documentação sempre alinhada ao que foi solicitado  
+- Trabalho em equipe para lidar com mudanças estruturais em projetos já iniciados  
+
+### Reflexão sobre Aplicação dos Conceitos
+
+**Conceitos teóricos aplicados:**
+
+- Estruturação formal de artefatos de Engenharia de Software  
+- Organização e documentação em grupo de forma colaborativa  
+
+**Insights obtidos:**
+
+- A entrega visualmente organizada transmite mais profissionalismo e seriedade  
+- Reformular o que já está pronto exige atenção redobrada para não perder conteúdo importante  
+
+**Conexões com conteúdos anteriores:**
+
+- Reforço do uso de templates acadêmicos e técnicos vistos em aulas anteriores  
 
 ## Seções Gerais
 
