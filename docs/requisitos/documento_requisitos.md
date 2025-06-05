@@ -4,7 +4,7 @@
 
 | Data       | Versão | Descrição                | Autor             |
 | ---------- | ------ | ------------------------ | ----------------- |
-| 05/06/2025 | 1.0    | Versão inicial           | Letícia Vitória   |
+| 05/06/2025 | 1.0    | Versão inicial           | Brasa Burguer     |
 
 ## 1. Introdução
 
@@ -96,7 +96,7 @@ Os principais casos de uso estão descritos no documento de Casos de Uso e inclu
 - UC04: Montar Pedido
 - UC05: Finalizar Pedido
 - UC06: Cadastrar Endereço
-[casos de uso](../arquitetura/diagramas)
+- [casos de uso](../arquitetura/diagramas)
 
 ## 6. Priorização de Requisitos
 
