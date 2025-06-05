@@ -161,7 +161,7 @@ O administrador recebe o pedido feito pelo cliente, aprova e registra no ERP.
 
 ### Requisitos Relacionados
 - RF08 - Aprovação de pedidos  
-- RF09 - Integração com ERP (Odoo)
+- RF09 - Integração com ERP 
 
 ### Interface de Usuário
 Painel administrativo com lista de pedidos pendentes + botão "Aprovar"
